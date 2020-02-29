@@ -2,3 +2,24 @@ Notes
 
 In order for script tag to work, has to be at end of body. Renders null if Notes
 
+SNOB'N'US
+
+primitive types
+String
+Number
+Boolean
+null
+Undefined
+Symbol
+
+more special
+Object
+
+escape is a forward slash const sentence = 'she\'s so cool \\'
+
+only do with true numbers when doing math, no strings
+
+modulo operator
+smarties % kids
+
+null vs Undefined
