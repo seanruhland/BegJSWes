@@ -23,3 +23,6 @@ modulo operator
 smarties % kids
 
 null vs Undefined
+
+Parameter is a placeholder
+arguments are actual values
