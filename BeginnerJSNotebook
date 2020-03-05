@@ -81,3 +81,5 @@ function handleClick() {
 button.addEventListener('click', function() {
     console.log('NIce JOb!');
 });
+
+$0 in console to grab what is currently selected, Chrome Dev Tools
