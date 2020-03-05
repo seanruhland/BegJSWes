@@ -83,3 +83,6 @@ button.addEventListener('click', function() {
 });
 
 $0 in console to grab what is currently selected, Chrome Dev Tools
+
+$('p') grab first available p tag
+ $$('p') grab all of the p tags
