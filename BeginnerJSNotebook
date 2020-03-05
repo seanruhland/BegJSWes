@@ -26,3 +26,58 @@ null vs Undefined
 
 Parameter is a placeholder
 arguments are actual values
+
+use parenthesis around an object to impliccitly return it
+
+//IIFE
+//Immediately Invoked Function Expression
+
+(function() {
+    console.log('running the anon function');
+    return 'You ARE COOL!'
+})();
+
+
+// Methods!!!
+
+// const Wes = {
+//     name: 'sean ruhland',
+//     sayHi: function() {
+//         console.log('Hioo')
+//         return 'Hey Wes'
+//     },
+//     yellHi() {
+//         console.log('HEY SEANNNNNNNN')
+//     },
+//     whisperHi: () => {
+//         console.log('this is a whisper')
+//     }
+// }
+
+
+const Wes = {
+    name: 'sean ruhland',
+    sayHi: function() {
+        console.log('Hioo')
+        return 'Hey Wes'
+    },
+    yellHi() {
+        console.log('HEY SEANNNNNNNN')
+    },
+    whisperHi: () => {
+        console.log('this is a whisper')
+    }
+}
+
+//callback function
+//click callback
+const button = document.querySelector('.clickMe')
+
+button.addEventListener('click', Wes.yellHi);
+
+function handleClick() {
+    console.log('Great Clicking!')
+}
+button.addEventListener('click', function() {
+    console.log('NIce JOb!');
+});
