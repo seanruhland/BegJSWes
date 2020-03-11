@@ -22,10 +22,10 @@
 
 // console.log(sayHiTo)
 
-function doctorize(name) {
-    return `Dr. ${name}`;
-}
+// function doctorize(name) {
+//     return `Dr. ${name}`;
+// }
 
-function yell(name) {
-    return `HEY ${name.toUpperCase()}`;
-}
+// function yell(name) {
+//     return `HEY ${name.toUpperCase()}`;
+// }
